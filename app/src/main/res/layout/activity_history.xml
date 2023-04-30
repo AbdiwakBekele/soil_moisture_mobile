@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar_main" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/tableDaily"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="20dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:background="#a3c2c2"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textColor="#FFF"
+                            android:textStyle="bold"
+                            android:text="No" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="20dp"
+                            android:textSize="18sp"
+                            android:textColor="#FFF"
+                            android:textStyle="bold"
+                            android:text="Date"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="20dp"
+                            android:textSize="18sp"
+                            android:textColor="#FFF"
+                            android:textStyle="bold"
+                            android:text="Moisture Amount" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingVertical="10dp"
+                            android:paddingHorizontal="20dp"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textColor="#FFF"
+                            android:textStyle="bold"
+                            android:text="Status" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </HorizontalScrollView>
+
+
+
+
+</LinearLayout>

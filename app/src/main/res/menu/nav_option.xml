@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_control"
+        android:icon="@drawable/ic_bluetooth_connection"
+        android:title="@string/nav_control"
+        android:checked="true"/>
+
+
+    </group>
+
+
+    <item android:title="@string/support_info">
+        <menu>
+            <item android:id="@+id/history"
+                android:icon="@drawable/ic_feedback"
+                android:title="History"/>
+
+            <item android:id="@+id/contactAs"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact As"/>
+
+            <item android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About"/>
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

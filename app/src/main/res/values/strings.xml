@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Soil Moisture</string>
+    <string name="txtView_bluetoothStatus">Bluetooth not Connected</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="txtView_ledStatus">Led is Off</string>
+    <string name="btn_on">ON</string>
+    <string name="btn_off">OFF</string>
+    <string name="btn_blink">BLINK</string>
+    <string name="nav_header_img">Nav Header</string>
+    <string name="nav_control">Control</string>
+    <string name="nav_user">User</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_about">About</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+
+    <string name="frag_connection">Connection</string>
+    <string name="frag_control">Control</string>
+    <string name="frag_schedule">Schedule</string>
+
+    <string name="mechanicalVentilator">Mechanical Ventilator</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+
+
+    <string name="support_info">Support and Info</string>
+    <string name="feedback">Feedback</string>
+    <string name="contactAs">Contact As</string>
+    <string name="about">About</string>
+
+    <string name="sendFeedback"> Send Feedback! </string>
+
+    <string name="copyright"> © Copyright 2021 Mechanical Engineering </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
